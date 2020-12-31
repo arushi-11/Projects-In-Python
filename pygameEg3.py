@@ -14,7 +14,7 @@ while running:
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
             running=False
-        if event.type is pygame.MOUSEBUTTONDOWN:    #Checking the condition when the mouse pointer get pressed!
+        if event.type == pygame.MOUSEBUTTONDOWN:    #Checking the condition when the mouse pointer get pressed!
             x= pygame.mouse.get_pos()       #copy the coordinates of the position into x!
             l.append(x)
             temp+=1
